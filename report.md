@@ -7,7 +7,7 @@
 # 課題１
 &emsp;与えられたプログラム例をコンパイルし、実行した結果（スクリーンショット）を以下に添付する。
 
-!()[情報工学実験２_problem1.PNG]
+![](https://raw.githubusercontent.com/FlexiblePrintedCircuits/zikken4/master/%E6%83%85%E5%A0%B1%E5%B7%A5%E5%AD%A6%E5%AE%9F%E9%A8%93%EF%BC%92_problem1.PNG)
 
 # 課題２
 
@@ -76,6 +76,10 @@ char *regex = "^(070|080|090)-[0-9]{4}-[0-9]{4}$";
 }
 ```
 
+以下、フローチャートを添付する。
+
+![](https://raw.githubusercontent.com/FlexiblePrintedCircuits/zikken4/master/S__38658052.jpg)
+
 # 課題５
 電子メールアドレスを抽出し表示するプログラムを以下に記する。
 
@@ -129,6 +133,10 @@ int main(int argc, char *argv[]){
 }
 ```
 
+以下、フローチャートを添付する。
+
+![](https://raw.githubusercontent.com/FlexiblePrintedCircuits/zikken4/master/S__38658054.jpg)
+
 # 調査１
 
 ## 調査事項
@@ -157,3 +165,12 @@ int main(int argc, char *argv[]){
 その際に正しい引用方法を用いなければ、査読者の信頼を落とすほか、そのレポート自体の品質低下につながる。
 
 &emsp;そこで、文章中の引用が正しい方法で引用されているか正規表現で判断し、もし正しくなければハイライトを付け指摘してくれるレポートエディタを提案する。
+
+# 実験のまとめ
+
+&emsp;与えられた要件を満たすプログラムを正規表現を用いて実装することができた。
+C言語における正規表現の実装方法を理解できた。
+
+# 実験の感想
+&emsp;C言語やPython、Ruby、PHPにおいて正規表現を用いたプログラムの作成を行ったことがあるが、だいぶ時間が経っていたので今回復習ができて良かった。
+&emsp;正規表現を用いた実装と言えばPerlがよく知られるが、Perlを扱ったことはないので今回の実験を通して様々なプログラミング言語で正規表現を扱ってみたいと思った。
